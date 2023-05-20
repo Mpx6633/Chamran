@@ -1,0 +1,47 @@
+#include <iostream>
+
+#include <conio.h>
+
+using namespace std;
+
+int main()
+
+{
+
+    int a,b,c;
+
+    cout << "Enter 3 number:\n";
+
+    cin>>a>>b>>c;
+
+    // ** Find Max **
+
+    if (a>=b && a>=c)
+
+             cout<<"Max: "<<a<<endl;
+
+    else if (b>=a && b>=c)
+
+             cout<<"Max: "<<b<<endl;
+
+    else
+
+            cout<<"Max: "<<c<<endl;
+
+    // ** Find Min **
+
+    if (a<=b && a<=c)
+
+             cout<<"Min: "<<a;
+
+    else if (b<=a && b<=c)
+
+             cout<<"Min: "<<b;
+
+    else
+
+            cout<<"Min: "<<c;
+
+    getch();
+
+}
